@@ -1,0 +1,94 @@
+#logo img {
+    left: 400px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .imagens {
+    display: flex;
+  }
+  
+  .opcoes {
+    margin:25px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  
+  .departamentos li{
+    display: inline-flex;
+    margin: 20px;
+    padding: 25px;
+    top: 30px;
+    text-align: center;
+  }
+  
+  .departamentos li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid yellow;
+  }
+  
+  form {
+    margin-top: -180px;
+  }
+  /* FIM DO HEAD*/
+  
+  /* INICIO DA LISTA ESQUERDA*/
+  .lista_left {
+    height: 100%;
+    width: 380px;
+    padding: 40px;
+    
+  }
+  
+  .lista_left h1 {
+    font: 50px arial sans-serif;
+    color: #bf304a;
+    padding: 5px;
+    margin: 5px;
+    text-align: center
+  }
+  
+  .lista_left ul{
+    list-style-type: none;
+  }
+  
+  .lista_left li {
+    font: 25px Arial serif;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+  }
+  /* FIM DA LINHA ESQUERDA*/
+  
+  .obs {
+    width: 220px;
+    height: 100%;
+    background-color: yellow;
+    margin-left: 600px;
+    margin-top: -300px;
+    border-radius: 25px;
+  }
+  .obs h1 {
+    font: 30px arial, serif;
+    color: #bf304a;
+    text-align: center;
+  }
+  
+  .ini {
+    height: 100%;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #bf304a;
+    margin-left: 650px;
+    margin-top: 300px;
+    
+  }
+  .ini h1 {
+    font: 30px arial, serif;
+    color: yellow;
+    text-align: center;
+  }
