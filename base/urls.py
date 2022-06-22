@@ -7,5 +7,6 @@ urlpatterns = [
     #path('home/', view_home),
    # path('about/', view_about),
    # path('contact/', view_contact),
+   
 
 ]
