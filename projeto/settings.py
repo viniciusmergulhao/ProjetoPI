@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-k1(gqdg!9usun!syn9a0$#@%(!u&121u_j=qu%k$nuz=4_jnwd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
 
-INSTALLED_APPS = [
+DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'base',
 ]
+
+OTHER_APPS = [
+
+]
+
+MY_APSS = [
+
+]
+
+INSTALLED_APPS = DJANGO_APPS + OTHER_APPS + MY_APSS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -106,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'America-São_Paulo'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 

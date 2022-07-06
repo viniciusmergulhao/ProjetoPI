@@ -15,18 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.http import httpResponse
+from django.http import HttpResponse
 
-def my_view(request):
+'''def my_view(request):
     return httpResponse('Pag inicial')
 
 def my_about(request):
-    return httpResponse('about')
+    return httpResponse('about')'''
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include ('base.url')),
+    path('', include('base.urls'))
     #para onde vai, qual a função, qual o nome
     #path('home/',my_view, name = 'home'),
     #path('about/', my_about),
