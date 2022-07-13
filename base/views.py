@@ -34,7 +34,7 @@ class PedidosView(TemplateView):
     template_name = 'pedidos.html'
 
 class BaseView(TemplateView):
-    template_name = 'Base.html'
+    template_name = 'base.html'
 
 class CadView(TemplateView):
     template_name = 'cadastro.html'

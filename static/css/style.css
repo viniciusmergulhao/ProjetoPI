@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+/**
 .topo-pag{
-    height: 50px;
+    border-bottom: 2px solid black;
+    height: 100px;
     background-color: rgba(184, 171, 0, 0.842);
 
 }
-h1{
-    background-color: red;
+
+#logo{
+    width: 50px;
+    position: relative;
+
 }
+**/
