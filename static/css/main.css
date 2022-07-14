@@ -1,0 +1,253 @@
+body {
+   
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    .max-width{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    ::placeholder {
+    font-size: 0.6em;
+    color: rgba(88, 88, 124, 0.692);
+    }
+    
+    ul {
+    padding: 0px!important;
+    }
+    
+    #div-fundo{
+        height: 165px;
+        background-color: black;
+        width: 100%;
+    }
+    
+    .barra-principal {
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+    }
+    
+    main {
+    margin: 0 auto;
+    width: 1400px;
+    position: relative;
+    }
+    
+    .barra-pesquisa{
+    float: left;
+    width: 5%;
+    margin-top: 40px;
+    margin-left: 50px;
+    }
+    
+    .barra-pesquisa input{
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 0.99em;
+    text-indent: 10px;
+    margin-top: -5px;
+    width: 350px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border: solid #c5a45e 3px;
+    }
+
+#tam-logo{
+    width: 60px;
+}
+    
+    .logo {
+    margin-left: 550px;
+    float: left;
+    width: 10%;
+    margin-top: 25px;
+    }
+    .icones ul{
+        margin-left: 50px;
+    }
+    .icones ul li {
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    }
+    
+    .icones {
+    background-color: #c5a45e;
+    margin-top: 25px;
+    width: 35%;
+    float: right;
+    }
+    
+    
+    
+    .departamentos {
+    background-color: black;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 2px;
+    height: 50px;
+    }
+    
+    .menu-urls {
+    border-bottom: 5px solid #c5a45e;
+    }
+    
+    .menu ul li {
+    display: inline-block;
+    color: #c5a45e;
+    }
+    
+    .menu ul li a:hover {
+    color: white;
+    }
+    
+    .menu ul li a {
+    color: #c5a45e;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 160px;
+    }
+    
+    .col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    }
+    
+    
+    
+    .limite{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    
+   
+    .tam-item:hover{
+        background-color: rgb(212, 212, 212);
+    }
+    
+    .texto{
+        position: relative;
+        width: 250px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 55px;
+        margin-bottom: 5px;
+        font-family: cursive;
+        font-size: 15px;
+        text-align: center;
+    }
+    .url-item{
+        text-decoration: none;
+    }
+    .tam-item {
+        width: 350px;
+        height: 400px;
+        margin-left: 70px;
+        margin-top: 125px;
+        position: relative;
+        display: inline-block;
+    }
+    .img-item{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+    
+    .img-fav{
+        padding-left: 290px;
+        padding-top: 15px;
+    }
+    
+    .valor {
+        background-color: #17ea17;
+        border-radius: 10px;
+        width: 85px;
+        height: 25px;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 125px;
+        text-align: center;
+        border: black solid 0.2px;
+        padding-top: 1px;
+        font-family: cursive;
+    }
+    
+    
+    
+
+    .lista_left{
+    max-width: 280px;
+    }
+    .lista_left ul li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    .linha-div{
+        height: 0.5px;
+        background-color: black;
+        margin-top: -20px;
+    }
+    
+    .Titulo-perfil{
+      font-size: 1.5em;
+      font-family: fantasy;
+      margin: 0 auto;
+      margin-top: 40px;
+      color: #bf304a;
+      padding: 5px;
+      
+      text-align: center
+    }
+    
+    .lista_left ul{
+        list-style-type: none;
+      }
+      
+      .lista_left li {
+        font: 25px Arial serif;
+        text-align: left;
+        margin: 10px;
+        padding: 5px;
+      }
+
+    .paleta-pag{
+        padding: 10px;
+        position: relative;
+        width: 200px;
+        margin-left: 647px;
+        background-color: black;
+        font-family: monospace;
+        font-size: 1.8em;
+        padding-left: 18px;
+    }
+#f2d64b {
+    color: #f2d64b;
+}
+
+#verdeea17 {
+color: #17ea17;
+}
+#bf304a {
+    color: #bf304a;
+}
+#p1-white{
+    color: white;
+}
