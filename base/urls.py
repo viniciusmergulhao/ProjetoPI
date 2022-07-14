@@ -2,7 +2,7 @@ from django.urls import path
 from .views import HomeView, PerfilView, CadView, LoginView, PedidosView, BaseView, CarView, EuroView, FavView, RetroView, SacView, SelecView
 
 urlpatterns = [
-    path('home/', HomeView.as_view()),
+    path('home/', HomeView.as_view(), name = 'inicio'),
     path('cadastro/', CadView.as_view()),
     path('perfil/', PerfilView.as_view()),
     path('login/', LoginView.as_view()),

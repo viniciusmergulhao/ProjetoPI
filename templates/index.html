@@ -1,9 +1,13 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/logo.png' %}">
+
     <title>Pg Foot</title>
 </head>
 
@@ -22,7 +26,9 @@
                     </div>
 
                     <div class="logo">
-                        <img id="tam-logo" src="./img/logo.png" />
+                        <a href="{% url 'inicio' %}">
+                        <img id="tam-logo" src="{% static 'img/logo.png' %}" />
+                    </a>
                     </div>
                     <div class="icones">
                         <ul>
