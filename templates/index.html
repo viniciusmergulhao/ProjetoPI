@@ -7,8 +7,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
     <link rel="icon" type="image/png" href="{% static 'img/logo.png' %}">
-
+    {% block title %}
     <title>Pg Foot</title>
+    {% endblock title %}
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                     </div>
 
                     <div class="logo">
-                        <a href="{% url 'inicio' %}">
+                        <a href="{% url 'home' %}">
                         <img id="tam-logo" src="{% static 'img/logo.png' %}" />
                     </a>
                     </div>
@@ -56,32 +57,36 @@
             <div class="departamentos">
                 <div class="menu">
                     <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="./kids/kids.html">Kids</a></li>
-                        <li><a href="./info/informatica.html">Informática</a></li>
-                        <li><a href="./casa/casa.html">Casa</a></li>
-                        <li><a href="./mercado/mercado.html">Mercado</a></li>
+                        <li><a href="{% url 'home' %}"">Inicio</a></li>
+                        <li><a href="{% url 'base' %}">Torcedor</a></li>
+                        <li><a href="{% url 'retro' %}">Retrôs</a></li>
+                        <li><a href="{% url 'euro' %}">Europeias</a></li>
+                        <li><a href="{% url 'selec' %}">Seleções</a></li>
                     </ul>
                 </div>
             </div>
         </main>
 
+        {% block teste %}
 
+        {% endblock teste %}
 
-        <div class="limite">
+        <!--<div class="limite">
 
             <div class="tam-item">
-                <img class="img-fav" src="./img/heart.png">
-                <img class="img-item" src="./img/Mouse sem fio Rapoo M10, 2.4 Ghz, 3 Botões, 1000 DPI, Branco - RA008.jpg" />
+                <img class="img-fav" src="{% static 'img/heart.png' %}" >
+                <img class="img-item" src="{% static 'img/mouse-teste.png' %}" />
 
-                <p class="texto"><a class="url-item">Fígado bovino</a></p>
+                
 
-                <div class="valorasd">
-                    <p class="valor">R$ 39,99</p>
+                <div class="name-item">
+                    <p class="texto-item"><a class="url-item">Mouse gaming</a></p>
+
+                    <p class="valor">R$ 149,99</p>
 
                 </div>
 
-            </div>
+            </div> -->
 
             <!--<div class="tam-item">
                 <img class="img-fav" src="./img/heart.png">
@@ -233,5 +238,6 @@
     </div>
 
 </body>
+
 
 </html>
