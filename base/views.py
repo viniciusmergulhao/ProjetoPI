@@ -18,41 +18,38 @@ def view_about(request):
     return render (request, 'home.html')'''
   
 
-class HomeView(TemplateView):
-     template_name = 'home.html'
-
 class CadView(TemplateView):
     template_name = 'cadastro.html'
 
 class LoginView(TemplateView):
-    template_name = 'login.html'
+    template_name = 'base/pages/login.html'
 
 class PerfilView(TemplateView):
-    template_name = 'perfil.html'
+    template_name = 'base/pages/perfil.html'
 
 class PedidosView(TemplateView):
-    template_name = 'pedidos.html'
+    template_name = 'base/pages/pedidos.html'
 
 class BaseView(TemplateView):
-    template_name = 'index.html'
+    template_name = 'base/pages/home.html'
 
 class CadView(TemplateView):
-    template_name = 'cadastro.html'
+    template_name = 'base/pages/cadastro.html'
 
 class CarView(TemplateView):
-    template_name = 'carrinho.html'
+    template_name = 'base/pages/carrinho.html'
 
 class EuroView(TemplateView):
-    template_name = 'europa.html'
+    template_name = 'base/pages/europa.html'
 
 class FavView(TemplateView):
-    template_name = 'favoritos.html'
+    template_name = 'base/pages/favoritos.html'
 
 class RetroView(TemplateView):
-    template_name = 'retro.html'
+    template_name = 'base/pages/retro.html'
 
 class SacView(TemplateView):
-    template_name = 'sac.html'
+    template_name = 'base/pages/sac.html'
 
 class SelecView(TemplateView):
-    template_name = 'selecoes.html'
+    template_name = 'base/pages/selecoes.html'

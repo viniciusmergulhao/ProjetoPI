@@ -52,24 +52,28 @@
         </header>
 
 
+        {% block paginas %}
+        <main class=" menu-urls">
 
-        <main class="col-100 menu-urls">
-            <div class="departamentos">
+        {% block header %}
+        {% include 'base/componentes/header.html' %}
+        {% endblock header %}
+      
+            
+            
+<!--             <div class="departamentos">
                 <div class="menu">
                     <ul>
-                        <li><a href="{% url 'home' %}"">Inicio</a></li>
-                        <li><a href="{% url 'base' %}">Torcedor</a></li>
+                        <li><a href="{% url 'home' %}">Inicio</a></li>
+                        <li><a href="{% url 'torcedor' %}">Torcedor</a></li>
                         <li><a href="{% url 'retro' %}">Retrôs</a></li>
                         <li><a href="{% url 'euro' %}">Europeias</a></li>
                         <li><a href="{% url 'selec' %}">Seleções</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </main>
-
-        {% block teste %}
-
-        {% endblock teste %}
+        {% endblock paginas%}
 
         <!--<div class="limite">
 
