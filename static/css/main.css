@@ -114,6 +114,7 @@ body {
 .menu ul {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
     .menu ul li {
