@@ -53,3 +53,7 @@ class SacView(TemplateView):
 
 class SelecView(TemplateView):
     template_name = 'base/pages/selecoes.html'
+
+class TesteView(TemplateView):
+    template_name = 'teste.html'
+    
