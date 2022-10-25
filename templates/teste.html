@@ -1,21 +1,152 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="{% static '/css/teste.css' %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-
-    <button aria-pressed="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span class="sr-only">Toggle Menu</span>
-      </button>
     
-</body>
-<script src="{% static '/js/teste.js' %}"></script>
-</html>
+<div class="content">
+        
+          
+        
+        <!-- Content -->
+        <div id="content" class="colM">
+          
+          <h1>Adicionar user</h1>
+          
+          <div id="content-main">
+
+
+
+<form method="post" id="user_form" novalidate=""><input type="hidden" name="csrfmiddlewaretoken" value="LJYrxrs4QgCSp7XYaJYRuxuIiLJZysbzmT8vZoG3H1vsDciuoqa3owEXM2EeFEa5">
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-first_name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_first_name">Primeiro nome:</label>
+                        
+                            <input type="text" name="first_name" class="vTextField" maxlength="30" required="" id="id_first_name">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-second_name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_second_name">Segundo nome:</label>
+                        
+                            <input type="text" name="second_name" class="vTextField" maxlength="30" required="" id="id_second_name">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-tell">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_tell">Tell:</label>
+                        
+                            <input type="text" name="tell" class="vTextField" maxlength="11" required="" id="id_tell">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-email">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_email">Email:</label>
+                        
+                            <input type="email" name="email" class="vTextField" maxlength="254" required="" id="id_email">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+
+<input type="submit" value="Salvar" class="default" name="_save">
+
+
+<input type="submit" value="Salvar e adicionar outro(a)" name="_addanother">
+<input type="submit" value="Salvar e continuar editando" name="_continue">
+
+
+</div>
+
+
+
+    <script id="django-admin-form-add-constants" src="./forms_files/change_form.js.baixados" data-model-name="user" async="">
+    </script>
+
+
+
+
+<script id="django-admin-prepopulated-fields-constants" src="./forms_files/prepopulate_init.js.baixados" data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+          
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+
+
+</body></html>

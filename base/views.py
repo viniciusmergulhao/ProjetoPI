@@ -56,4 +56,6 @@ class SelecView(TemplateView):
 
 class TesteView(TemplateView):
     template_name = 'teste.html'
+
+    
     

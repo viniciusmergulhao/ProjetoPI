@@ -15,5 +15,6 @@ urlpatterns = [
     path('sac/', SacView.as_view()),
     path('selecoes/', SelecView.as_view(), name = 'selec'),
     path('teste/', TesteView.as_view(), name = 'teste'),
+    
 
 ]
